@@ -1,0 +1,196 @@
+
+
+body{
+  
+  justify-content: center;
+  
+  
+}
+
+header{
+    margin-top: 0%;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    justify-items: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+
+#lista{
+  margin: 0;
+  display: flex;
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  justify-items: center;
+  align-items: center;
+  list-style-type: none;
+      
+  
+  
+}
+
+
+#main{
+
+
+   display: grid;
+
+   color: black;
+   text-align-last: left;
+   justify-content: left;
+
+  
+   
+}
+.info{
+  height: 40px;
+  width: 150px;
+}
+
+
+
+button{
+    height: 130px;
+    width: 210px;
+    
+    font-size: 15px;
+    border-radius: 15px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+   flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    
+     
+   
+}
+
+div{
+  
+}
+.circulo {
+  
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #606960;
+  text-align: center;
+
+}
+
+
+}
+
+.carousel-item {
+    margin-top: 0px;
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px !important; //esta es la parte importante para que todas tus card-img tengan la misma medida sin importar el tamaño de la imagen
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+
+  footer{
+    height: 200px;
+    width: 100%;
+    background-color: yellowgreen;
+    text-align: center;
+    
+}
+
+#grid-conteiner{
+
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30% 30% 30%;
+  grid-gap: 40px;
+  grid-template-areas: foto1 foto2 foto3
+                       titulo1 titulo2 titulo3
+                       parrafo1 parrafo2 parrafo3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: black;
+  
+  
+  
+}
+
+div .uno{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  
+}
+
+.dos{
+  width: 30%;
+  height: 300px;
+}
+.tres{
+  width: 30%;
+  height: 300px;
+}
+
+h2{
+  margin-top: 20px;
+  font-size: 20px;
+}
+p{
+  margin-top: 30px;
+  
+ 
+}
+.leer{
+  height: 50px;
+  width: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: yellowgreen
+  
+  
+}
+.digital{
+  width: 120px;
+  height: 120px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+  background: yellowgreen;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  
+}
+
