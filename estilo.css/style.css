@@ -1,5 +1,9 @@
 
 
+
+
+
+
 body{
   width: 100%;
   height: 1000px;
@@ -10,44 +14,41 @@ body{
 }
 
 header{
-    margin-top: 0%;
-    height: 150px;
-    width: 100%;
-    background-color: rgb(255, 254, 254);
-    
-    display: flex;
-    text-align: right;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    justify-items: center;
-    align-items: center;
-    list-style-type: none;
-    
-    
+  
+  width: 100%;
 }
 
-
 #lista{
+  
   margin: 10px;
   display: flex;
+  background-color: cornsilk;
+  flex-direction: row;
   text-align: right;
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
   justify-items: center;
-  align-items: center;
+  align-content: center;
   list-style-type: none;
-  justify-content: space-between;
+
+  position: fixed;
+ 
       
   
   
 }
+#lista div{
+  background-color: rgb(226, 172, 172);
+  margin: 20px;
+  height: 50px;
+  color: rgb(238, 200, 49);
+  width: 300px;
 
-nav .nav{
-  display: flex;
-  justify-content: space-between;
-  flex
+
+
+#lista:hover{
+  background-color: chartreuse;
 }
 
 
@@ -206,5 +207,37 @@ p{
   
 }
 
+.infomunicipal{
+  width: 500px;
+  height: 70px;
+  text-align: center;
+  
+}
+
+.consulta{
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  
+}
 
 @media only screen and ( max-width:600px)
+  
+#lista{
+
+  background-color: beige;
+  flex-direction: column;
+  height: 150px;
+  
+
+}
+
+  #lista div{
+  margin: 5px;
+ 
+ flex-basis: 100%;
+ background: none;
+ text-align: left;
+
+
+}
