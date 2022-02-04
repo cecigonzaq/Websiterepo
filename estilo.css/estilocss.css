@@ -54,7 +54,7 @@ header{
 
 #main{
 
-  
+   
    display: grid;
 
    color: black;
@@ -73,6 +73,7 @@ header{
 
 
 button{
+  padding: 20px;
     height: 130px;
     width: 210px;
     
@@ -92,6 +93,7 @@ button{
 
 
 .circulo {
+  
   
   width: 50px;
   height: 50px;
@@ -140,7 +142,7 @@ button{
 
 #grid-conteiner{
 
-  
+  padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 30% 30% 30%;
@@ -221,5 +223,9 @@ p{
 
 @media only screen and( max-widh: 600px){
 
-
+  #carouselExampleCaptions {
+    height: 24rem;
+    width: max-content 600px;
+    }}
+  
 }
