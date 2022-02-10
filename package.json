@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/estilo.scss css/estilocss.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "sass:watch": "sass --watch sestilo.scss/estilo.scss stylo.css/estilocss.css"
   },
   "repository": {
     "type": "git",

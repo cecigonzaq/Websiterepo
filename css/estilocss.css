@@ -42,7 +42,7 @@ header {
   justify-content: left; }
 
 .info {
-  height: 40px;
+  height: 30px;
   width: 150px;
   text-align: center; }
 
@@ -53,10 +53,11 @@ button {
   font-size: 15px;
   border-radius: 15px;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 20px;
-  padding: 10px; }
+  padding: 10px;
+  transform: translate(50%); }
 
 .circulo {
   width: 50px;
@@ -64,9 +65,7 @@ button {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #606960;
-  justify-content: center;
-  align-content: center; }
+  background: #606960; }
 
 .carousel-item {
   margin-top: 0px;
@@ -85,6 +84,9 @@ button {
 .card-img-top {
   width: 100%;
   height: 200px; }
+
+.carousel-caption {
+  text-align: left; }
 
 footer {
   height: 200px;
@@ -137,10 +139,8 @@ p {
   border-radius: 50%;
   border-radius: 50%;
   background: yellowgreen;
-  justify-content: center;
-  justify-items: center;
   align-content: center;
-  text-align: center; }
+  transform: translate(700px); }
 
 .infomunicipal {
   width: 500px;
@@ -151,8 +151,3 @@ p {
   width: 100px;
   height: 40px;
   text-align: center; }
-
-@media only screen and (max-widh: 600px) {
-  #carouselExampleCaptions {
-    height: 24rem;
-    width: max-content 600px; } }

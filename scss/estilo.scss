@@ -62,9 +62,10 @@
      
   }
   .info{
-    height: 40px;
+    height: 30px;
     width: 150px;
     text-align: center;
+    
   }
   
   
@@ -78,11 +79,11 @@
       border-radius: 15px;
       
       text-align: center;
-     flex-direction: column;
+     flex-direction: row;
       flex-wrap: wrap;
       margin: 20px;
       padding: 10px;
-      
+      transform: translate(50%);
       
        
      
@@ -98,8 +99,8 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #606960;
-    justify-content: center;
-    align-content: center;
+    
+    
   
   }
   
@@ -128,12 +129,18 @@
       
      
     }
+    .carousel-caption{
+      text-align: left;
+
+    } 
   
     footer{
       height: 200px;
       width: 100%;
       background-color: yellowgreen;
       text-align: center;
+    
+    
       
   }
   
@@ -190,18 +197,17 @@
     
     
   }
-  .digital{
+  .digital {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     border-radius: 50%;
   
     background: yellowgreen;
-    justify-content: center;
-    justify-items: center;
     align-content: center;
-    text-align: center;
+    transform: translate(700px);    
     
+   
   }
   
   .infomunicipal{
@@ -219,10 +225,7 @@
   }
   
   @media only screen and( max-widh: 600px){
-  
-    #carouselExampleCaptions {
-      height: 24rem;
-      width: max-content 600px;
-      }
     
-  }
+   }
+   
+   
