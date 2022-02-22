@@ -64,6 +64,9 @@ text-decoration: none;
     text-align: center;
     
   }
+  .contactos{
+    padding: 10px;
+  }
   
   
   
@@ -74,11 +77,12 @@ text-decoration: none;
       
       font-size: 15px;
       border-radius: 15px;
+      justify-content: left;
       
-      text-align: center;
+      text-align: left;
      flex-direction: row;
       flex-wrap: wrap;
-      margin: 20px;
+      margin: 10px;
       padding: 10px;
       transform: translate(50%);
       
@@ -293,4 +297,18 @@ text-decoration: none;
       
       
     }
+    main{
+      display: block;
+      text-align: left;
+      justify-content: left;
+      margin-top: 170px;
+      padding-left: 20px;
+    }
+    .infomunicipal{
+      text-align: center;
+      justify-content: left;
+      margin-left: 10px;
+    }
+  
+   
   }

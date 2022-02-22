@@ -47,16 +47,20 @@ header label:hover {
   width: 150px;
   text-align: center; }
 
+.contactos {
+  padding: 10px; }
+
 button {
   padding: 20px;
   height: 130px;
   width: 210px;
   font-size: 15px;
   border-radius: 15px;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
   transform: translate(50%); }
 
@@ -198,4 +202,14 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     font-weight: 200;
-    color: black; } }
+    color: black; }
+  main {
+    display: block;
+    text-align: left;
+    justify-content: left;
+    margin-top: 170px;
+    padding-left: 20px; }
+  .infomunicipal {
+    text-align: center;
+    justify-content: left;
+    margin-left: 10px; } }
